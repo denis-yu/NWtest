@@ -1,0 +1,11 @@
+{
+  "name": "nightwatch-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch"
+  },
+  "author": "beckl",
+  "dependencies": {
+    "nightwatch": "^0.9.0"
+  }
+}
