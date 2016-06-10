@@ -16,14 +16,14 @@
 		"server_path": "bin/selenium-server-standalone-2.53.0.jar",
 		"log_path": "logs",
 		"cli_args": {
-			"webdriver.chrome.driver": "bin/chromedriver",
+			"webdriver.chrome.driver": "bin/chromedriver2",
 			"webdriver.firefox.profile": "default"
 		}
 	},
 
 	"test_settings": {
 		"default": {
-			"launch_url": "http://localhost:4000",
+			"launch_url": "http://localhost:4444/wd/hub",
 			"silent": true,
 			"screenshots": {
 				"enabled": false,
